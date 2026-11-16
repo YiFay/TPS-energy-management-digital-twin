@@ -1,0 +1,54 @@
+TPS Twin Studio v2 — 先看这里
+
+你只需要做三步：
+1. 右键 ZIP → 全部解压。不要在 ZIP 内直接运行。
+2. 打开解压后的 TPS_Twin_Studio_v2 文件夹。
+3. 双击 Start_Windows.bat。
+
+浏览器会自动打开英文网站。黑色窗口保持开着，不要在里面继续输命令。
+如果浏览器没有自动打开，把黑色窗口显示的 http://127.0.0.1:端口 复制到浏览器地址栏。
+这次无需 pip、pandas、Streamlit、Node、虚拟环境，也不需要逐段粘贴代码。
+
+原来的项目不需要删除：这个版本放在独立文件夹里。
+本版本使用 Python 标准库。启动文件优先使用已安装的 Python 3.15。
+已在开发环境 Python 3.12.14 和浏览器中验证；没有在你的 Windows / Python 3.15.2 上实机测试。
+
+推荐演示顺序（约六分钟）：
+1. Digital twin：拖动旋转、滚轮缩放；Site / Cutaway / Plan 切换视角。
+   鼠标移到电气楼，点击后右侧显示 HVAC 区域信息。
+   点击 Open detailed analysis，进入区域；再点 HV-01 进入设备层。
+2. Energy performance：负荷曲线、系统占比、小时热力图、流量-功率/单耗、费用分析。
+3. Data studio：点击 Try m³/h mapping example → Validate & preview。
+   看列名映射、m³/h 换算成 m³/s、范围检查和一天覆盖率。
+   Try a quality-check example 演示错误数据被拒绝。导入替换的是整张数据表。
+   Reset demo 恢复四阶段原始模拟数据。
+4. Deviation analytics：包含人为加入的 14:00–16:00 额外负荷。
+   解释前半天训练、后半天验证、残差筛查。这里不是项目真实监测数据。
+5. Scenario lab：运行效率方案；通过供水/蓄水/辅机容量/假设风量检查后再看经济性。
+   勾选理解年化假设，才显示 NPV 和简单回收期。
+6. Reports & evidence：导出 CSV、报告、JSON 和可以恢复的完整 workspace。
+
+输入按钮在哪里：
+- 右上角齿轮：泵数量、效率、功率因数、碳因子、COP、湿井、启停和电价参数。
+- 左边 Data studio 或 Import & manage data：7 类 CSV 输入。
+- 顶部：阶段、扬程场景和能耗边界。选择后点 Recalculate。
+
+保存修改：
+- 导入数据只保存在当前浏览器页面。刷新会恢复演示数据。
+- 关闭前在 Data studio 点 Save workspace，保存 JSON。
+- 下次在 Data studio → Restore workspace JSON 读取这个文件。
+
+关于模型：
+- 项目实际 Excel 和原始图纸没有打包。
+- 3D 是参考深井布局构建的交互示意，不是精确 BIM / 竣工模型。
+- 采用你确认的 6 台泵；附属建筑、HVAC 分区和负荷为模拟假设。
+- 泵曲线近似参考给定厂家 expected curve，不是保证曲线。
+- 暂无在线 SCADA、自动控制、经现场验证的节能量、NPSHa 或水锤验证。
+- 预测温度是说明用途的模拟信号，不是建筑热工仿真结果。
+
+退出：关闭浏览器，然后关闭黑色窗口；或在黑色窗口按 Ctrl+C。
+若显示 Terminate batch job (Y/N)?，输入 Y 回车。
+
+GitHub：上传此文件夹的源代码、data、docs、测试和 README。
+不要把真实项目图纸、客户 Excel、密码或你的本地真实数据放进公共仓库。
+GitHub Pages 无法直接运行本项目的 Python 后端；上传代码和部署网站是两件事。

@@ -1,0 +1,1 @@
+{"name":"tps-twin-studio-local","version":"2.0.0","private":true,"scripts":{"dev":"python3 app.py --no-browser"}}
