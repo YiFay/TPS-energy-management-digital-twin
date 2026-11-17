@@ -1,0 +1,27 @@
+asset_id,system,name,zone_id,boundary,input_kw,duty_units,load_factor,schedule,provenance
+HV-01,HVAC,MV electrical rooms cooling,Z-ELEC,TPS,55,1,0.72,continuous,Synthetic illustrative electrical input; not a project load list
+HV-02,HVAC,Control and SCADA room cooling,Z-CTRL,TPS,20,1,0.78,continuous,Synthetic illustrative electrical input; not a project load list
+HV-03,HVAC,Administration and welfare cooling,Z-ADMIN,TPS,60,1,0.7,daytime,Synthetic illustrative electrical input; not a project load list
+HV-04,HVAC,Motor and drive gallery cooling,Z-MOTOR,TPS,70,1,0.8,continuous,Synthetic illustrative electrical input; not a project load list
+HV-05,HVAC,Maintenance workshop cooling,Z-WORK,TPS,35,1,0.65,daytime,Synthetic illustrative electrical input; not a project load list
+HV-06,HVAC,Service and access rooms cooling,Z-SERVICE,TPS,25,1,0.65,continuous,Synthetic illustrative electrical input; not a project load list
+VE-01,Ventilation,Dry-well safety ventilation,DRY,TPS,45,2,0.8,continuous,Synthetic illustrative electrical input; not a project load list
+VE-02,Ventilation,Screen room extraction,SCREEN,TPS,25,2,0.8,continuous,Synthetic illustrative electrical input; not a project load list
+OD-FN,Odour control,TPS extraction fans,OCU,TPS,160,2,0.8,continuous,Synthetic illustrative electrical input; not a project load list
+OD-CI,Odour control,Scrubber circulation pumps,OCU,TPS,22,3,0.8,continuous,Synthetic illustrative electrical input; not a project load list
+OD-DO,Odour control,Chemical dosing auxiliaries,OCU,TPS,3,4,0.5,continuous,Synthetic illustrative electrical input; not a project load list
+RO-FN,Regional odour,Regional extraction fans,ROCF,Network,110,4,0.75,continuous,Synthetic illustrative electrical input; not a project load list
+RO-CI,Regional odour,Regional scrubber circulation,ROCF,Network,15,6,0.8,continuous,Synthetic illustrative electrical input; not a project load list
+CW-CH,Central cooling,Chiller (thermal duty / COP),COOL,TPS,230,2,0.62,continuous,Synthetic illustrative electrical input; not a project load list
+CW-PU,Central cooling,Cooling circulation pumps,COOL,TPS,45,3,0.72,continuous,Synthetic illustrative electrical input; not a project load list
+CW-FA,Central cooling,Heat rejection fans,COOL,TPS,30,3,0.7,continuous,Synthetic illustrative electrical input; not a project load list
+RW-01,Water services,RW polishing and service water,RW,TPS,80,1,0.65,continuous,Synthetic illustrative electrical input; not a project load list
+SC-01,Auxiliary pumping,Self-cleaning pumps,WET,TPS,180,1,0.7,intermittent,Synthetic illustrative electrical input; not a project load list
+DR-01,Auxiliary pumping,Drainage pumps,DRY,TPS,30,2,0.7,intermittent,Synthetic illustrative electrical input; not a project load list
+IT-01,Controls and ICT,PLC and SCADA servers,Z-CTRL,TPS,14,1,0.9,continuous,Synthetic illustrative electrical input; not a project load list
+IN-01,Controls and ICT,Field instruments and telemetry,DRY,TPS,5,1,0.9,continuous,Synthetic illustrative electrical input; not a project load list
+CC-01,Controls and ICT,CCTV and access control,SITE,TPS,4,1,0.9,continuous,Synthetic illustrative electrical input; not a project load list
+LI-01,Buildings and lighting,External lighting,SITE,TPS,32,1,0.85,night,Synthetic illustrative electrical input; not a project load list
+LI-02,Buildings and lighting,Internal lighting,Z-SERVICE,TPS,28,1,0.7,daytime,Synthetic illustrative electrical input; not a project load list
+EL-01,Electrical losses,Transformer and distribution losses,ELEC,TPS,55,1,0.8,continuous,Synthetic illustrative electrical input; not a project load list
+UP-01,Electrical losses,UPS conversion losses,Z-CTRL,TPS,7,1,0.75,continuous,Synthetic illustrative electrical input; not a project load list

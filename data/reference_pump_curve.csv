@@ -1,0 +1,10 @@
+q_m3s,head_m,pump_efficiency,reference_speed_pct,provenance
+0,103,0.25,94.1,Approximate expected curve; not guaranteed or digitised OEM data
+0.8,107,0.52,94.1,Approximate expected curve; not guaranteed or digitised OEM data
+1.6,106,0.75,94.1,Approximate expected curve; not guaranteed or digitised OEM data
+2.05,103,0.84,94.1,Approximate expected curve; not guaranteed or digitised OEM data
+2.4,99,0.875,94.1,Approximate expected curve; not guaranteed or digitised OEM data
+2.8,94.5,0.897,94.1,Approximate expected curve; not guaranteed or digitised OEM data
+3.08,90,0.9,94.1,Approximate expected curve; not guaranteed or digitised OEM data
+3.4,86,0.898,94.1,Approximate expected curve; not guaranteed or digitised OEM data
+3.65,82,0.89,94.1,Approximate expected curve; not guaranteed or digitised OEM data

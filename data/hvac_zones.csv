@@ -1,0 +1,7 @@
+zone_id,name,level,area_m2,setpoint_c,max_temp_c,provenance
+Z-ELEC,MV electrical rooms,Ground,420,25,32,Assumed demonstration zone; not extracted room schedule
+Z-CTRL,Control and SCADA room,Ground,180,24,29,Assumed demonstration zone; not extracted room schedule
+Z-ADMIN,Administration and welfare,Ground,520,24,28,Assumed demonstration zone; not extracted room schedule
+Z-MOTOR,Motor and drive gallery,UG2,680,28,36,Assumed demonstration zone; not extracted room schedule
+Z-WORK,Maintenance workshop,Ground,360,26,32,Assumed demonstration zone; not extracted room schedule
+Z-SERVICE,Service and access rooms,UG1,220,27,34,Assumed demonstration zone; not extracted room schedule
